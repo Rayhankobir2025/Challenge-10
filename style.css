@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  background: #eeeeee;
+}
+a{
+  text-decoration: none;
+}
+/* main css */
+.main-div{
+  width: 670px;
+  margin: 30px auto;
+}
+.main-box{
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+
+}
+.header-section{}
+.logo {
+	height: 125px;
+	width: 150px;
+	background: #eeeeee;
+	padding: 10px 25px;
+	border-radius: 10px 0 0 10px;
+	margin-right: 2px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.logo img{}
+.banner{}
+.banner-top {
+	background: #007814 url(./img/flag.jpg) no-repeat right bottom;
+	background-size: 40%;
+  	border-radius: 0px 10px 0px 0px;
+ 	box-sizing: border-box;
+}
+.banner-top h2 {
+	color: #95e17d;
+	font-size: 25px;
+	padding: 3px 15px;
+}
+.banner-middle {
+	background: #007814;
+	padding: 3px 15px;
+	margin-top: -8px;
+	border-top: 1px solid #479e55;
+}
+.banner-middle h4 {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+}
+.banner .banner-bottom{
+  text-align: right;
+  background: url(./img/bottom_bg.jpg) repeat center center;
+  border-top: 1px solid #fff;
+}
+.banner .banner-bottom a {
+	color: #fff;
+	font-size: 14px;
+	margin-right: 14px;
+}
+.banner .banner-bottom a:hover{
+  color: #9fd19e;
+}
+
+
+
+#Exam-input {
+	background: #f4f0f2;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	display: inline-block;
+	padding: 6px 11px;
+	width: 250px;
+	margin-left: 10px;
+	font-size: 13px;
+	color: #000036;
+}
+.lebel {
+	width: 130px;
+	color: #000039;
+	font-size: 14px;
+	font-weight: 500;
+}
+.body-box {
+	width: 500px;
+	height: auto;
+	margin: 30px auto;
+	border: 1px solid #848484;
+	padding:35px 54px;
+}
+.reset-submit .reset {
+	background: #e1e1e1;
+	display: inline-block;
+	padding: 1px 9px;
+	border: 1px solid #adadad;
+	font-size: 16px;
+	font-weight: 400;
+}
+.reset-submit .submit {
+	background: #e1e1e1;
+	display: inline-block;
+	padding: 1px 9px;
+	border: 1px solid #adadad;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.bottom-section{
+	border-top: 5px solid #86c775;
+	background: #f2f2f2;
+	border-radius: 0 0 10px 10px;
+}
+.bottom-sec-left p {
+	font-size: 12px;
+	font-weight: 300;
+	padding-left: 10px;
+}
+.b-sec-right-text p{
+	font-size: 12px;
+	font-weight: 300;
+	padding-right: 10px;
+}
+.b-sec-right-img{
+	padding: 10px;
+}
+.footer-text img {
+	width: 20px;
+	margin-left: 43px;
+	margin-top: -10px;
+}
+.footer-text{
+	margin-left: 30px;
+}
+.footer-text p {
+	margin-bottom: 0;
+	font-weight: 300;
+	font-size: 11px;
+}
+.footer-text .footer-p{
+	margin-top: -6px;
+}
+
+
+/* Finally I'm Done!!! */
+/* Education board Result website made by 
+_Rayhan Kobir */
